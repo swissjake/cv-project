@@ -1,0 +1,42 @@
+
+.form-inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.pract-experience input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.start-date{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    
+}
+textarea{
+    resize: none;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .start-date{
+        flex-direction: column;
+    }
+}

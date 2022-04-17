@@ -1,0 +1,15 @@
+
+.form-inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.general-info input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+}
