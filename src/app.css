@@ -35,6 +35,6 @@ h2{
 @media only screen and (max-width: 600px) {
     .App{
         width: 98%;
-
+        margin-top: 0;
     }
 }
